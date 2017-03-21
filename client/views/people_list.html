@@ -1,0 +1,6 @@
+<h2>Our People</h2>
+<div ng-repeat="p in people">
+     <h3>{{ p.name }}</h3>
+     <h4>{{ p.title }}</h4>
+     <a ng-href="#/people/{{ $index }}">Click Here for Details</a> 
+</div>

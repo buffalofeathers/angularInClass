@@ -1,0 +1,9 @@
+  <h1>{{ welcomeMessage }}</h1>
+            <h3>It is currently {{ weather }} outside.</h3>
+            <input type='text' ng-model='weather'>
+            <input type='number' ng-model='cost'>
+            <input type='number' ng-model='quantity'>
+            <p>Total: {{ cost * quantity | currency }}<p>
+              <button ng-click="sayHello()">Say Hello!</button>
+              <a href="/people">See People</a>
+                
